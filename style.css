@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+
+
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main h1 {
+    font-size: 35px;
+    color: red;
+}
+main nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    width: 300px;
+    height: 100px;
+    
+    margin-bottom: 5px;
+}
+
+main a {
+   text-decoration: none;
+   color: black;
+
+}
+
+main a:hover {
+    background-color: rgba(126, 117, 117, 0.425);
+    font-size: 45px;
+    border-radius: 10px;
+    transition: 0.6s;
+    
+}

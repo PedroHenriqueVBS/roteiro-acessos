@@ -10,7 +10,7 @@ main {
     align-items: center;
     flex-direction: column;
     gap: 10px;
-
+    padding: 20px;
 
     font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
@@ -44,4 +44,10 @@ main a:hover {
     border-radius: 10px;
     transition: 0.6s;
     
+}
+
+footer {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+    height: 80px;
 }
